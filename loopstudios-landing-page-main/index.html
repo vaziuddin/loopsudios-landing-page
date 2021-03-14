@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+      body {
+        /* font-family: 'Source Sans Pro', sans-serif; */
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      }
+
+      header {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(images/desktop/image-hero.jpg);
+        background-size: cover;
+        height: 80vh;
+        width: auto;
+      }
+      .copyright {
+        font: 1em sans-serif;
+        color: gray;
+        align-items: baseline;
+      }
+      .page {
+        padding: 6rem;
+      }
+      .title {
+        
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        padding: 50px;
+        border: 1px solid white;
+        box-sizing: border-box;
+        border-left: 20%;
+        color: white;
+        left: 15%;
+        
+        bottom: 40%;
+        
+        
+        
+        
+      }
+      /* .title.p{
+        font-size: 8rem;
+        text-size-adjust: 20px;
+      } */
+      .page-link {
+        text-align: right;
+        padding-top: 2rem;
+        padding-right: 4rem;
+      }
+      .logo {
+        text-align: right;
+        padding-top: 2rem;
+        padding-left: 4rem;
+      }
+      h1 {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 3rem;
+        white-space: nowrap;
+        left: 0px;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        margin: 0;
+        font-size: 1.3rem;
+      }
+      /* a{
+  text-align: top;
+  left: 150px;
+  color:white;
+  text-size-adjust: 2rem;
+} */
+      a:visited {
+        
+        text-align: top;
+        left: 150px;
+        color: white;
+        text-size-adjust: 2rem;
+        text-decoration:#000;
+      }
+      footer {
+        background: #000;
+        color: white;
+        padding: 2rem;
+      }
+      .footer-link {
+        color: white;
+        padding: 6px;
+      }
+      .social-link {
+        text-align: right;
+        padding: 4px;
+        text-underline-offset: none;
+      }
+      .link {
+        padding: 10px;
+      }
+      main {
+        max-width: 500px;
+        margin: 20px auto;
+      }
+      .icon {
+        padding: 4px;
+      }
+      .picture {
+        
+        justify-content:center;
+        /* position: absolute; */
+        padding: 6px;
+      }
+      /* .container-img {
+        position: relative;
+        text-align: center;
+        color: white;
+      } */
+      .bottom-left {
+        position: absolute;
+        bottom: 16px;
+        left: 40px;
+      }
+
+      .card {
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        
+        width: 70%;
+        
+      }
+
+      /* On mouse-over, add a deeper shadow */
+      /* .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+
+      /* Add some padding inside the card container */
+      .container {
+        padding: 2px 16px;
+
+      }
+      .text-sizes {
+        text-size-adjust: center;
+
+      }
+      .image-padding {
+        padding: 12px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" class="logo" alt="logo" />
+      <div class="page-link">
+        <a href="#" class="link">About</a>
+        <a href="#" class="link">Careers</a>
+        <a href="#" class="link">Events</a>
+        <a href="#" class="link">Products</a>
+
+        <a href="#">Support</a>
+      </div>
+      <div class="title">
+        <div class="text-sizes">
+        <p>IMMERSIVE</p> 
+        <p>EXPERIENCES</p>
+        <p>THAT DELIVER</p>
+        </div>
+      </div>
+     
+    </header>
+
+    <div class="page">
+      <div class="card">
+        <img class="image-padding" src="images/desktop/image-interactive.jpg" alt="interactive" />
+        <div class="container">
+          <h2>The leader in interactive VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </div>
+
+      <h1>Our creations</h1>
+
+      <!-- <p class="">See all</p> -->
+
+      <div>
+       
+        <img
+          src="images/desktop/image-deep-earth.jpg"
+          alt="Deep earth"
+          class="picture" text="Deep Earth"/>
+          
+        
+        
+        <img
+          src="images/desktop/image-night-arcade.jpg"
+          alt="Night arcade"
+          class="picture"
+        />
+
+        <img
+          src="images/desktop/image-soccer-team.jpg"
+          alt="Soccer team"
+          class="picture"
+        />
+
+        <img
+          src="images/desktop/image-grid.jpg"
+          alt="The grid"
+          class="picture"
+        />
+      </div>
+      <div>
+        <img
+          src="images/desktop/image-from-above.jpg"
+          alt="From up above VR"
+          class="picture"
+        />
+        <img
+          src="images/desktop/image-pocket-borealis.jpg"
+          alt="Pocket borealis"
+          class="picture"
+        />
+        <img
+          src="images/desktop/image-curiosity.jpg"
+          alt="The curiosity"
+          class="picture"
+        />
+        <img
+          src="images/desktop/image-fisheye.jpg"
+          alt="make it fisheye"
+          class="picture"
+        />
+      </div>
+    </div>
+    <footer>
+      <div>
+        <img src="images/logo.svg" alt="logo" />
+        <div class="footer-link">
+          <a href="#" class="link">About</a>
+          <a href="#" class="link">Careers</a>
+          <a href="#" class="link">Events</a>
+
+          <a href="#" class="link">Products</a>
+
+          <a href="#" class="link">Support</a>
+        </div>
+        <div class="social-link">
+          <img class="icon" src="images/icon-facebook.svg" alt="facebook" />
+          <img class="icon" src="images/icon-twitter.svg" alt="icon-twitter" />
+          <img
+            class="icon"
+            src="images/icon-instagram.svg"
+            alt="icon-instagram"
+          />
+          <img class="icon" src="images/icon-pinterest.svg" alt="pinterest" />
+          <div>
+            <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+          </div>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >HTML AND CSS</a
+          >. Coded by <a href="#">Vaziuddin Mohammed</a>.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
